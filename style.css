@@ -183,16 +183,16 @@ body, html {
       height: 60px;
     }
   .logo {
-	float: left;
-	padding-top: 10px;
-	font-family: 'Poppins', sans-serif;
+  	float: left;
+  	padding-top: 10px;
+  	font-family: 'Poppins', sans-serif;
     }
     .links {
-	width: 60%;
-	text-align: center;
-	font-size: 10px;
-	float: left;
-	font-family: 'Poppins', sans-serif;
+  	width: 60%;
+  	text-align: center;
+  	font-size: 10px;
+  	float: left;
+  	font-family: 'Poppins', sans-serif;
     }
     ul {
      list-style-type: none;
@@ -219,66 +219,66 @@ body, html {
     }
 
     li.dropdown {
-    display: inline-block;
+     display: inline-block;
     }
 
     .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: black;
-    min-width: 160px;
-    box-shadow: black;
-    z-index: 1;
+      display: none;
+      position: absolute;
+      background-color: black;
+      min-width: 160px;
+      box-shadow: black;
+      z-index: 1;
     }
 
     .dropdown-content a {
-    color: lightgrey;
-    padding: 10px 13px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
+      color: lightgrey;
+      padding: 10px 13px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
     }
     .dropdown-content a:hover {
-    background-color: grey;
+     background-color: grey;
     }
 
     .dropdown:hover .dropdown-content {
-    display: block;
+     display: block;
     }
 
     * {
-   box-sizing: border-box;
+     box-sizing: border-box;
     }
    body {
-   font-family: Verdana, sans-serif;
+     font-family: Verdana, sans-serif;
     }
     .mySlides {
-   display: none;
+    display: none;
     }
     img {
-   vertical-align: middle;
-   height: 250px;
+    vertical-align: middle;
+    height: 250px;
     }
 
     /* Slideshow container */
     .slideshow-container {
-    max-width: 400px;
-    position: relative;
-    margin: auto;
+      max-width: 400px;
+      position: relative;
+     margin: auto;
     }
     /* The dots/bullets/indicators */
     .dot {
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
+     height: 15px;
+     width: 15px;
+     margin: 0 2px;
+     background-color: #bbb;
+     border-radius: 50%;
+     display: inline-block;
+     transition: background-color 0.6s ease;
     }
 
     .active {
-    background-color: #717171;
+     background-color: #717171;
     }
 
     /* Fading animation */
@@ -295,55 +295,55 @@ body, html {
     }
 
     @keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
+     from {opacity: .4} 
+      to {opacity: 1}
     }
 
     .about {
-  	width: 100%;
-	  height: 700px;
-	  background-color: black;
+    	width: 100%;
+	    height: 700px;
+	    background-color: black;
     }
     p {
-    font-size: 12px;
-    font-family: sans-serif;
-    color: lightgray;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 100px;
-    padding-bottom: 50px;
+      font-size: 12px;
+      font-family: sans-serif;
+      color: lightgray;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 100px;
+      padding-bottom: 50px;
     }
-    .andy {
-  	background-color: lightgray;
-  	width: 100%;
-  	height: 800px;
+   .andy {
+    	background-color: lightgray;
+     	width: 100%;
+    	height: 800px;
     }
     
     h1{
-    color:black;
-    font-size: 10px;
-    font-family: sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
+     color:black;
+     font-size: 10px;
+     font-family: sans-serif;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     text-align: center;
     }
     h2 {
-    font-family: sans-serif;
-    color: limegreen;
-    font-size: 20px;
+     font-family: sans-serif;
+     color: limegreen;
+     font-size: 20px;
     }
     body, html {
-    height: 100%;
-    margin: 0;
+     height: 100%;
+     margin: 0;
     }
   
      .bgimg {
-    background-image: url('comingsoon.jpg');
-    height: 100%;
-    background-position: center;
-    background-size: cover;
-    position: relative;
+     background-image: url('comingsoon.jpg');
+     height: 100%;
+     background-position: center;
+     background-size: cover;
+     position: relative;
      }
 }
 @media only screen and (max-width: 300px) {
@@ -437,7 +437,7 @@ body, html {
       }
       /* The dots/bullets/indicators */
       .dot {
-        height: 15px;
+      height: 15px;
       width: 15px;
       margin: 0 2px;
       background-color: #bbb;
