@@ -1,0 +1,517 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body {
+	background-color: black;
+}
+.navbar {
+	width: 100%;
+	height: 60px;
+	font-family: 'Poppins', sans-serif;
+}
+.logo {
+	color: limegreen;
+	font-size: 26px;
+	letter-spacing:3px;
+	float: left;
+	padding-top: 10px;
+	font-family: 'Poppins', sans-serif;
+}
+.links {
+	width: 60%;
+	text-align: center;
+	font-size: 20px;
+	float: left;
+	font-family: 'Poppins', sans-serif;
+}
+ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     background-color: black;
+     font-family: 'Poppins', sans-serif;
+}
+
+li {
+     float: left;
+}
+
+li a, .dropbtn {
+     display: inline-block;
+     color: lightgrey;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+}
+li a:hover, .dropdown:hover .dropbtn {
+     background-color: grey;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: black;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: lightgrey;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {
+    background-color: grey;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+* {
+   box-sizing: border-box;
+}
+body {
+   font-family: Verdana, sans-serif;
+}
+.mySlides {
+   display: none;
+}
+img {
+   vertical-align: middle;
+   height: 500px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+   max-width: 1000px;
+   position: relative;
+   margin: auto;
+}
+/* The dots/bullets/indicators */
+.dot {
+   height: 15px;
+   width: 15px;
+   margin: 0 2px;
+   background-color: #bbb;
+   border-radius: 50%;
+   display: inline-block;
+   transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.about {
+	width: 100%;
+	height: 400px;
+	background-color: black;
+}
+p {
+    font-size: 30px;
+    font-family: sans-serif;
+    color: lightgray;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.andy {
+	background-color: lightgray;
+	width: 100%;
+  height: 600px;
+}
+  h1  {
+    color:black;
+    font-size: 50px;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+h2 {
+    font-family: sans-serif;
+    color: limegreen;
+    font-size: 75px;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+ .bgimg {
+    background-image: url('comingsoon.jpg');
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+  @media only screen and (max-width: 500px) {
+  .navbar {
+      width: 100%;
+      height: 60px;
+    }
+  .logo {
+	float: left;
+	padding-top: 10px;
+	font-family: 'Poppins', sans-serif;
+    }
+    .links {
+	width: 60%;
+	text-align: center;
+	font-size: 10px;
+	float: left;
+	font-family: 'Poppins', sans-serif;
+    }
+    ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     background-color: black;
+     font-family: 'Poppins', sans-serif;
+    }
+
+    li {
+     float: left;
+    }
+
+    li a, .dropbtn {
+     display: inline-block;
+     color: lightgrey;
+     text-align: center;
+     padding: 10px 13px;
+     text-decoration: none;
+    }
+    li a:hover, .dropdown:hover .dropbtn {
+     background-color: grey;
+    }
+
+    li.dropdown {
+    display: inline-block;
+    }
+
+    .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: black;
+    z-index: 1;
+    }
+
+    .dropdown-content a {
+    color: lightgrey;
+    padding: 10px 13px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    }
+    .dropdown-content a:hover {
+    background-color: grey;
+    }
+
+    .dropdown:hover .dropdown-content {
+    display: block;
+    }
+
+    * {
+   box-sizing: border-box;
+    }
+   body {
+   font-family: Verdana, sans-serif;
+    }
+    .mySlides {
+   display: none;
+    }
+    img {
+   vertical-align: middle;
+   height: 250px;
+    }
+
+    /* Slideshow container */
+    .slideshow-container {
+    max-width: 400px;
+    position: relative;
+    margin: auto;
+    }
+    /* The dots/bullets/indicators */
+    .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    }
+
+    .active {
+    background-color: #717171;
+    }
+
+    /* Fading animation */
+    .fade {
+     -webkit-animation-name: fade;
+     -webkit-animation-duration: 1.5s;
+     animation-name: fade;
+     animation-duration: 1.5s;
+    }
+
+    @-webkit-keyframes fade {
+     from {opacity: .4} 
+     to {opacity: 1}
+    }
+
+    @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+    }
+
+    .about {
+  	width: 100%;
+	  height: 700px;
+	  background-color: black;
+    }
+    p {
+    font-size: 12px;
+    font-family: sans-serif;
+    color: lightgray;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    }
+    .andy {
+  	background-color: lightgray;
+  	width: 100%;
+  	height: 800px;
+    }
+    
+    h1{
+    color:black;
+    font-size: 10px;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    }
+    h2 {
+    font-family: sans-serif;
+    color: limegreen;
+    font-size: 20px;
+    }
+    body, html {
+    height: 100%;
+    margin: 0;
+    }
+  
+     .bgimg {
+    background-image: url('comingsoon.jpg');
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+     }
+}
+@media only screen and (max-width: 300px) {
+    .navbar {
+        width: 100%;
+        height: 60px;
+      }
+    .logo {
+      float: left;
+      padding-top: 10px;
+      font-family: 'Poppins', sans-serif;
+      }
+      .links {
+      width: 50%;
+      text-align: center;
+      font-size: 8px;
+      float: left;
+      font-family: 'Poppins', sans-serif;
+      }
+      ul {
+       list-style-type: none;
+       margin: 0;
+       padding: 0;
+       overflow: hidden;
+       background-color: black;
+       font-family: 'Poppins', sans-serif;
+      }
+  
+      li {
+       float: left;
+      }
+  
+      li a, .dropbtn {
+       display: inline-block;
+       color: lightgrey;
+       text-align: center;
+       padding: 14px 16px;
+       text-decoration: none;
+      }
+      li a:hover, .dropdown:hover .dropbtn {
+       background-color: grey;
+      }
+  
+      li.dropdown {
+      display: inline-block;
+      }
+  
+      .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: black;
+      min-width: 160px;
+      box-shadow: black;
+      z-index: 1;
+      }
+  
+      .dropdown-content a {
+      color: lightgrey;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+      }
+      .dropdown-content a:hover {
+      background-color: grey;
+      }
+  
+      .dropdown:hover .dropdown-content {
+      display: block;
+      }
+  
+      * {
+     box-sizing: border-box;
+      }
+     body {
+     font-family: Verdana, sans-serif;
+      }
+      .mySlides {
+     display: none;
+      }
+      img {
+     vertical-align: middle;
+     height: 200px;
+      }
+  
+      /* Slideshow container */
+      .slideshow-container {
+      max-width: 600px;
+      position: relative;
+      margin: auto;
+      }
+      /* The dots/bullets/indicators */
+      .dot {
+        height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+      }
+  
+      .active {
+      background-color: #717171;
+      }
+  
+      /* Fading animation */
+      .fade {
+       -webkit-animation-name: fade;
+       -webkit-animation-duration: 1.5s;
+       animation-name: fade;
+       animation-duration: 1.5s;
+      }
+  
+      @-webkit-keyframes fade {
+       from {opacity: .4} 
+       to {opacity: 1}
+      }
+  
+      @keyframes fade {
+      from {opacity: .4} 
+      to {opacity: 1}
+      }
+  
+      .about {
+      width: 100%;
+      height: 100px;
+      background-color: black;
+      }
+      p {
+      font-size: 10px;
+      font-family: sans-serif;
+      color: lightgray;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 100px;
+      padding-bottom: 50px;
+      }
+      .andy {
+      background-color: lightgray;
+      width: 100%;
+      height: 300px;
+      }
+      
+      h1{
+      color:black;
+      font-size: 35px;
+      font-family: sans-serif;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      }
+      h2 {
+      font-family: sans-serif;
+      color: limegreen;
+      font-size: 35px;
+      }
+      body, html {
+      height: 100%;
+      margin: 0;
+      }
+    
+       .bgimg {
+      background-image: url('comingsoon.jpg');
+      height: 100%;
+      background-position: center;
+      background-size: cover;
+      position: relative;
+       }
+  }
